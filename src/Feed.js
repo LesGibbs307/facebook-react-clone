@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import "./Feed.css"
+import StoryReel from "./StoryReel";
 
-class Feed extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        );
-    }
-}
+const Feed = () => {
+    return (
+        <div className="feed">
+            <StoryReel />
+            {/* StoryReel */}
+            {/* MessageSender */}
+        </div>
+    );
+};
 
 export default Feed;
